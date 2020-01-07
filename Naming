@@ -1,1 +1,3 @@
-avatar = test
+
+avatar = "Hello my name is s%, I measure s% inches tall, and weigh s% pounds. I also have s% hair and s% eyes." % (name, height, weight, hair, eyes)
+print avatar
