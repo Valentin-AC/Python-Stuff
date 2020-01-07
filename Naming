@@ -1,3 +1,5 @@
-
-avatar = "Hello my name is s%, I measure s% inches tall, and weigh s% pounds. I also have s% hair and s% eyes." % (name, height, weight, hair, eyes)
+import random
+Weight= random.int(90-200)
+Height= random.int (60-80)
+avatar = "Hello my name is Androidas%, I measure s% inches tall, and weigh s% pounds. I also have s% hair and s% eyes." % (name, str(height), str(weight), hair, eyes)
 print avatar
